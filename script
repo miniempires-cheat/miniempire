@@ -41,7 +41,7 @@ local Tab = Window:CreateTab("Information") -- Title, Image
 local Section = Tab:CreateSection("Information")
 
 local Button = Tab:CreateButton({
-   Name = "dsc.gg/",
+   Name = "discord.gg/,
    Callback = function()
    -- The function that takes place when the button is pressed
    end,
