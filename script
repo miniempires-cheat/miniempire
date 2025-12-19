@@ -37,7 +37,6 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Information") -- Title, Image
-local Tab = Window:CreateTab("Main") -- Title, Image
 
 local Section = Tab:CreateSection("Information")
 
@@ -54,5 +53,7 @@ local Button = Tab:CreateButton({
    -- The function that takes place when the button is pressed
    end,
 })
+
+local Tab = Window:CreateTab("Main") -- Title, Image
 
 Rayfield:LoadConfiguration()
